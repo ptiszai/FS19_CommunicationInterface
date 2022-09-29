@@ -1,6 +1,6 @@
 ## F19_ComInterface<->CommunicationInterface.exe
 
-##### This script of mod is the for the FS19 communication is with a windows application used tha ram drive.
+##### This script of mod is the for the FS19 communication is with a windows application used the ram drive.
 I wroted in the Lua and C# programming language.<br>
 
 ![](doc/kep2.png)
@@ -12,7 +12,7 @@ I wroted in the Lua and C# programming language.<br>
 ![](doc/kep1.png)<br>
 
 Current "r:\\" drive on th my PC.<br>
-You overwrite if other on the you PC.<br>
+You overwrite if other on the you PC the new drive character.<br>
 In the source file of F19_ComInterface: FS19_mod/source/CommunicationInterface.lua, line 11:<br>
 ```bash
 CommunicationInterface.drive = "r:\\" -- ram drive
