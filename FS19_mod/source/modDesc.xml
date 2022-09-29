@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+	<author>tiszaii</author>
+	<title>
+		<en>Communication Interface</en>
+	</title>
+	<description>
+		<en>![CDATA[This script of mod is the for the FS19 communication is with a windows application used tha ram drive.
+         You can read the Readme.md on github.]]
+        </en>
+	</description>
+	<multiplayer supported="true"/>   
+	<iconFilename>comInterface.dds</iconFilename>
+	<version>1.0.0.0</version>
+	<l10n filenamePrefix="modDesc_l10n">
+	</l10n>	
+	<actions>
+<!-- event for player -->
+        <action name="READ1_XML" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+<!-- event for vehicle -->
+        <action name="READ2_XML" category="VEHICLE"  axisType="HALF" ignoreComboMask="false"/>
+	</actions>
+	<inputBinding>
+        <actionBinding action="READ1_XML" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_1" />            
+        </actionBinding>
+        <actionBinding action="READ2_XML" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_1" />            
+        </actionBinding>
+	</inputBinding>
+	
+	<extraSourceFiles>
+        <sourceFile filename="CommunicationInterface.lua"/>
+		<sourceFile filename="CommunicationInterfaceRegister.lua"/>
+	</extraSourceFiles>    
+</modDesc>
