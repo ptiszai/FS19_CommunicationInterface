@@ -34,9 +34,9 @@ static public readonly string DRIVER = "r:\\";
 created r:\\AppToFS19.xml file [Link to AppToFS19.xml](drive) -><br>
 change focus to the FS19 process -><br>
 send soft keyboard event '1'.<br> 
-Then F19_ComInterface mod read every two minutes the r:\\AppToFS19.xml file.<br>
-Mod is number value incremented by FS-19, than it is drawed the FS19 of center.<br>
+Then F19_ComInterface mod read every two secundums the r:\\AppToFS19.xml file.<br>
+Mod is number value incremented by FS19, than it is drawed the FS19 of center.<br>
 
-2.) FS19 mod created  r:\\FS19ToApp.xml file [Link to AppToFS19.xml](drive) every two minutes -><br>
+2.) FS19 mod created  r:\\FS19ToApp.xml file [Link to AppToFS19.xml](drive) every two secundums -><br>
 CommunicationInterface.exe read this xml file, and write the bottom text and number yellow boxs.<br>
  
