@@ -22,7 +22,7 @@ In the source file of F19_ComInterface: CommunicationInterface/Programs.cs, line
 static public readonly string DRIVER = "r:\\";
 ```
 ##### Test file a Visual Studio 2022 C# project:<br>
-[Windows Project](CommunicationInterface.sln)<br>
+[Windows Project](CommunicationInterface)<br>
 ##### FS19 mod zip file:<br>
 [Link to](FS19_mod/package)<br>
 
